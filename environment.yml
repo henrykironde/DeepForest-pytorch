@@ -19,7 +19,6 @@ dependencies:
   - pytorch-lightning
   - matplotlib
   - sphinx_rtd_theme
-  - sphinx_markdown_tables
   - pandas
   - twine
   - rtree
@@ -30,5 +29,5 @@ dependencies:
   - slidingwindow
   - bumpversion
   - scikit-image
-  - comet_ml
-  
+  - pip:
+    - sphinx-markdown-tables
