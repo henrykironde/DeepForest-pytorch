@@ -7,3 +7,7 @@ build:
 
 python:
   version: 3.7
+  install:
+    - requirements: dev_requirements.txt
+submodules:
+  include: all
